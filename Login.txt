@@ -1,0 +1,169 @@
+<html>
+<head>
+<div class="imagenes2">
+<a target="_blank" href="imagenes2/bysriu.png">
+<img src="imagenes2/bysriu.png" alt="Portada" width="15%" height="150">
+ </a><br><br>
+<title>BYSRIU</title>
+
+<head><style type="text/css">
+           
+body{
+	 background-image:url("imagenes2/Fondo3.jpg");
+	 }
+	 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1d2a63;
+}
+
+li {
+  float: left;
+}
+
+li a, .login {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #759dd1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#form {
+	  width: 250px;
+	  margin: 0 auto;
+	  height: 50px;
+	}
+
+	#form p {
+	  text-align: center;
+	}
+
+	#form label {
+	  font-size:500px;
+	}
+
+	input[type="radio"] {
+	 
+	}
+
+	label {
+	  color: grey;
+	}
+
+	.clasificacion {
+	  direction: rtl;
+	  unicode-bidi: bidi-override;
+	}
+
+	label:hover,
+	label:hover ~ label {
+	  color: black;
+	}
+
+	input[type="radio"]:checked ~ label {
+	  color: black;
+	}
+	body{
+	position:center;
+	font-family:Calibri;
+	}
+	.letras{
+		font-family:Calibri;
+	}
+	contenedor theme-default{
+		float:center;
+		padding-left:0%;
+	}
+	
+	<!-- -------------------------------------------------------------------------------------------------------------- -->
+
+<div id="snhb-main_leaderboard-0"></div>
+
+		</style>
+	</head>
+	<body>
+	
+		<div id="header">
+			<nav> <!-- Aqui estamos iniciando la nueva etiqueta nav -->
+			
+				<ul class="nav">
+				
+					<ul>
+  <li><a href="Inicio.html">INICIO</a></li>
+  <li><a href="Registro.html">REGISTRO</a></li>
+   <li><a href="Login.html">LOGIN</a></li>
+   <li><a href="Conoce.html">CONOCENOS</a></li>
+   <li><a href="Contactanos.html">CONTACTANOS</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">BLOQUES</a>
+    <div class="dropdown-content">
+      <a href="#">BLOQUE I</a>
+      <a href="#">BLOQUE II</a>
+      <a href="#">BLOQUE III</a>
+    </div>
+  </li>
+</ul>
+</nav>
+
+</div>
+	<form enctype="multipart/form-data" action="proceso.php" method="post">
+	<center>
+		<br><h1 style="color:white;">BIENVENIDO AL LOGIN</h1>
+	
+	<div class="letras">
+		<label style="color:white;";><h3>NOMBRE DE USUARIO:</h3>
+				<input type="text" name="nombre">
+		</label><br><br>
+			
+			<label style="color:white;";><h3>CONTRASEÑA:</h3>
+				<input type="text" name="contraseña">
+			</label><br><br>
+			
+	<input type ="submit" value="GUARDAR" style="font-family:Calibri;">
+	</center>
+</form>	<br><br><br>
+<div class="Pie"><center>
+	   <h4><p style="color:Black;">"Encuentra el mejor curso de programacion para tu propio aprendisaje".</p></h4>
+	   <h4><p style="color:Black;">BYSRIU@gmail.com</p></h4>
+	   <h4><p style="color:Black;">Para mas informacion llama al 777-267-25-97.</p></h4>
+	   <h4><p style="color:Black;">Elaborado por: Mata Vega Bryan Uriel, Arroyo Frias Rafael y Gomez Estrada Idalia.</p></h4>
+	   <h4><p style="color:Black;">Copyright 2019. Bryan Uriel, Rafel & Idalia.</p></h4>
+	</div>
+</body>
+</head>
+</html>
